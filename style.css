@@ -4,6 +4,15 @@
   top: 0;
 }
 
+/* .fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  background-color: white; 
+} */
+
 .section-hero .animated {
   animation: up-down 2s infinite alternate-reverse both;
 }
