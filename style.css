@@ -1,0 +1,67 @@
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.section-hero .animated {
+  animation: up-down 2s infinite alternate-reverse both;
+}
+
+.animated {
+  -webkit-animation: none;
+  animation: none;
+}
+
+.img-hero {
+  width: 80%;
+}
+
+.service-icon {
+  font-size: 3rem;
+}
+
+.portfolio-img:hover {
+  transition: 1s;
+  opacity: 60%;
+}
+
+.navbar-brand {
+  padding-bottom: 0;
+}
+
+.icon:hover {
+  color: #007bff !important;
+}
+
+.footer {
+  /* position: fixed; */
+  bottom: 0;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 991px) {
+  .section-hero {
+    text-align: center;
+  }
+  .title-hero,
+  .p-5 {
+    padding: 1.5rem 1rem !important;
+  }
+
+  .title {
+    font-size: 28px !important;
+  }
+  .sub-title {
+    font-size: 18px !important;
+  }
+}
