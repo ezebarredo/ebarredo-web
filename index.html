@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>ebarredo</title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link href="style.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<link href="style.css" rel="stylesheet" />
   </head>
   <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
     <header class="header bg-light">
-      <div  class="container d-flex align-items-center justify-content-between">
+      <div class="container d-flex align-items-center justify-content-between">
       <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="#"><h3>ebarredo</h3>
           </a>
@@ -35,13 +43,7 @@
                 <a class="nav-link"  href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="#prices">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"  href="https://ebarredo.gumroad.com/" target="_blank">Templates</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"  href="mailto:ezequielbarredo@gmail.com" target="_blank">Contact</a>
+                <a class="nav-link" href="mailto:ezequielbarredo@gmail.com" target="_blank">Contact</a>
               </li>
             </ul>
         </div>
@@ -51,12 +53,13 @@
     <main>
       <!-- Section Hero -->
       <section class="section-hero">
- <div class="container-fluid bg-secondary bg-gradient bg-opacity-50">
+ <div class="container-fluid bg-secondary bg-gradient bg-opacity-75">
   <div class="row p-5 justify-content-center">
       <div class="title-hero col p-5 align-self-center text-light fs-1 fw-bold d-flex flex-column justify-content-center">
-      <h1 class="title display-5 text-dark fw-bold lh-1">Your next big project awaits.</h1>
-      <p class="sub-title text-dark fw-normal lead">Expand your online presence today.</p>
+      <h1 class="title display-5 fw-bold lh-1">Your next big project awaits.</h1>
+      <h3 class="sub-title lead">Turn your ideas into interactive web experiences</h3>
     </div>
+    
     <div class="col-lg-6 align-self-center justify-content-center p-0">
       <img src=img/macbook.png class="mx-auto d-block img-hero img-fluid animated"/>
     </div>
@@ -65,14 +68,15 @@
 </div>
 </div>
 </section>
+
+
 <!-- Section About -->
 <section class="about mt-3" id="about">
   <div class="container px-5 py-5">
   <div class="row about align-items-center">
     <div class="col-md-7">
       <h2 class="mb-5">About Me</h2>
-       <h2 class=" fw-normal lh-sm">Hey there!<br>I'm Ezequiel Barredo, <br><span class="text-muted"> a web designer & Jr. frontend developer.</span></h2>
-      <p class="lead"> Transforming ideas into visually stunning digital realities.</p>
+      <h2 class="featurette-heading fw-normal text-dark lh-sm">Hello! I'm Eze Barredo, <br><span class="text-muted">a Junior frontend developer <br>ready to turn your ideas <br>into stunning websites. </span></h2>
     </div>
     <div class="col-md-5">
       <img class="profile-img rounded img-fluid mx-auto" width="300" height="300" src=img/profile.jpg />
@@ -81,9 +85,9 @@
 </div>
 <hr class="featurette-divider mt-5">
 </section>
-<!-- Services -->
+<!--  -->
 <section class="services mt-3" id="services">
-  <div class="container px-5 py-5" id="featured-3" data-aos="fade-up">
+  <div class="container px-5 py-5" id="featured-3">
     <h2 class="pb-2 border-bottom">Services</h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div class="feature col">
@@ -99,8 +103,10 @@
           <ion-icon class="service-icon" name="logo-html5"></ion-icon>
         </div>
         <h3 class="fs-2">Website Design</h3>
-        <p class="text-secondary">HTML, CSS, Bootstrap, Javascript, React and Next: <br> Responsive portfolio design for web, <br>tablets & mobiles.</p>
+        <p class="text-secondary">HTML, CSS, Bootstrap & Javascript: <br> Responsive portfolio design for web, <br>tablets & mobiles.</p>
       </div>
+           
+
       <div class="feature col">
         <div class="feature-icon d-inline-flex align-items-center justify-content-center text-primary fs-1 mb-3">
           <ion-icon class="service-icon" name="logo-wordpress"></ion-icon>
@@ -135,9 +141,30 @@
   </section>
   <!-- Section portfolio -->
   <section class="portfolio mt-3" id="portfolio">
-    <div class="container px-5 pt-5 pb-2" id="featured-3" data-aos="fade-up">
+    <div class="container px-5 pt-5 pb-2" id="featured-3">
       <h2 class="pb-2 border-bottom">Portfolio</h2>
       <div class="row g-5 py-5 row-cols-1 row-cols-lg-3">
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item">
+          <div class="portfolio-wrap">
+            <a
+            href="https://loopcourse.com/" target="_blank">
+            <img
+              src="img/portfolio/loopcourse.webp"
+              class="portfolio-img img-fluid rounded"
+              alt="belle"
+            /></a>
+            <div class="portfolio-info pt-1">
+              <h4 class="mt-3">Loop Course</h4>
+              <p class="lh-1">A Complete English course with flashcards.</p>
+              <a class="btn btn-primary" href="https://loopcourse.com/" target="_blank" role="button">More</a>
+            </div>
+            <div class="portfolio-links">
+            </div>
+          </div>
+        </div>
+
         <div class="col-lg-4 col-md-6 portfolio-item">
           <a href="https://lapalabra.pl" target="_blank">
             <div class="portfolio-wrap">
@@ -148,7 +175,7 @@
             />  </a>
             <div class="portfolio-info pt-1">
               <h4 class="mt-3">La Palabra</h4>
-              <p class="lh-1">Professional English Teacher</p>
+              <p class="lh-1">Professional English Teacher.</p>
               <a class="btn btn-primary" href="https://lapalabra.pl" target="_blank" role="button">More</a>
             </div>
             <div class="portfolio-links">
@@ -166,26 +193,8 @@
             /></a>
             <div class="portfolio-info pt-1">
               <h4 class="mt-3">Belle</h4>
-              <p class="lh-1">Facial cream project</p>
+              <p class="lh-1"><strong>Side Project:</strong> Facial cream.</p>
               <a class="btn btn-primary" href="https://ezebarredo.github.io/belle-web/" target="_blank" role="button">More</a>
-            </div>
-            <div class="portfolio-links">
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item">
-          <div class="portfolio-wrap">
-            <a
-            href="https://loopcourse.com" target="_blank">
-            <img
-              src="img/portfolio/loop_course.webp"
-              class="portfolio-img img-fluid rounded"
-              alt="belle"
-            /></a>
-            <div class="portfolio-info pt-1">
-              <h4 class="mt-3">Loop Course</h4>
-              <p class="lh-1">Flash cards course to learn English</p>
-              <a class="btn btn-primary" href="https://loopcourse.com" target="_blank" role="button">More</a>
             </div>
             <div class="portfolio-links">
             </div>
@@ -201,206 +210,78 @@
               alt=""
             /></a>
             <div class="portfolio-info pt-1">
-              <h4 class="mt-3">KinderGarden</h4>
-              <p class="lh-1">Poland</p>
+              <h4 class="mt-3">KinderGarten</h4>
+              <p class="lh-1">Website redesign in Wordpress.</p>
               <a class="btn btn-primary" href="http://www.pm16pruszkow.pl/" target="_blank" role="button">More</a>
             </div>
             <div class="portfolio-links">
               <a href="portfolio-details.html" title="More Details"
-                ><i class="bx bx-link"></i
-              ></a>
+                ><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item">
+          <div class="portfolio-wrap">
+            <a
+            href="https://ezebarredo.github.io/weather-api-app/" target="_blank">
+            <img
+              src="img/portfolio/weather.webp"
+              class="portfolio-img img-fluid rounded"
+              alt="belle"
+            /></a>
+            <div class="portfolio-info pt-1">
+              <h4 class="mt-3">Weather App</h4>
+              <p class="lh-1"><strong>Side project:</strong> Check the weather around the world.</p>
+              <a class="btn btn-primary" href="https://ezebarredo.github.io/weather-api-app/" target="_blank" role="button">More</a>
+            </div>
+            <div class="portfolio-links">
+            </div>
+          </div>
+        </div>
+         
+        <div class="col-lg-4 col-md-6 portfolio-item">
+          <div class="portfolio-wrap">
+            <a
+            href="https://ezebarredo.github.io/scam_aware_elders_eng/" target="_blank">
+            <img
+              src="img/portfolio/elderly.webp"
+              class="portfolio-img img-fluid rounded"
+              alt="belle"
+            /></a>
+            <div class="portfolio-info pt-1">
+              <h4 class="mt-3">Scam Aware Elders</h4>
+              <p class="lh-1"><strong>Side project:</strong> Educating the Elderly about scams.</p>
+              <a class="btn btn-primary" href="https://ezebarredo.github.io/scam_aware_elders_eng/" target="_blank" role="button">More</a>
+            </div>
+            <div class="portfolio-links">
             </div>
           </div>
         </div>
       </div>
     </div>    
       </div>
-      <hr class="featurette-divider">
+      <!-- <hr class="featurette-divider"> -->
 </section>
-<!-- Prices -->
-<section class="prices mt-3" id="prices">
-  <div class="container px-5 pt-5 pb-2" id="featured-3" data-aos="fade-up">
-<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-  <h2 class="pb-2 ">Pricing</h2>
-  <p class="fs-5 text-muted">Plans and details</p>
-</div>
-<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-  <div class="col">
-    <div class="card mb-4 rounded-3 shadow-sm border-primary">
-      <div class="card-header text-bg-primary py-3">
-        <h4 class="my-0 fw-normal">Basic</h4>
-      </div>
-      <div class="card-body">
-        <small class="text-muted fw-light">from</small>
-        <h1 class="card-title pricing-card-title">1499<small class="text-muted fw-light">zł</small></h1>
-        <ul class="list-unstyled mt-3 mb-4 text-muted">
-          <li>Website created with a ready Wordpress template. Update your website with text, pictures & others thanks to self-management. </li>
-        </ul>
-        <a type="button" class="w-100 btn btn-lg btn-primary"  href="mailto:ezequielbarredo@gmail.com" target="_blank">Contact me</a>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card mb-4 rounded-3 shadow-sm border-warning">
-      <div class="card-header text-bg-warning py-3">
-        <h4 class="my-0 fw-normal">Pro</h4>
-      </div>
-      <div class="card-body">
-        <small class="text-muted fw-light">from</small>
-        <h1 class="card-title pricing-card-title">1999<small class="text-muted fw-light">zł</small></h1>
-        <ul class="list-unstyled mt-3 mb-4 text-muted">
-          <li>Website created with my template. More control over the design process & website appearance, e.g. change layout & more. </li>
-        </ul>
-        <a type="button" class="w-100 btn btn-lg btn-primary"  href="https://ezequielbarredo.com/c-form" target="_blank">Contact me</a>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card mb-4 rounded-3 shadow-sm border-danger">
-      <div class="card-header text-bg-danger py-3">
-        <h4 class="my-0 fw-normal">Expert</h4>
-      </div>
-      <div class="card-body">
-        <small class="text-muted fw-light">from</small>
-        <h1 class="card-title pricing-card-title">2999<small class="text-muted fw-light">zł</small></h1>
-        <ul class="list-unstyled mt-3 mb-4 text-muted">
-          <li>Website built from scratch. It's a perfect option for individual projects where you can decide about every element of the website design. </li>
-        </ul>
-        <a type="button" class="w-100 btn btn-lg btn-primary"  href="mailto:ezequielbarredo@gmail.com" target="_blank">Contact me</a>
-      </div>
-    </div>
-  </div>
-</div>
-<h2 class="display-6 text-center mb-4">Compare plans</h2>
-<div class="table-responsive">
-  <table class="table table-striped text-center">
-    <thead>
-      <tr>
-        <th style="width: 34%;"></th>
-        <th style="width: 22%;">Basic</th>
-        <th style="width: 22%;">Pro</th>
-        <th style="width: 22%;">Expert</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row" class="text-start">Wordpress</th>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-      </tr>
-      <tr>
-        <th scope="row" class="text-start">Ready Templates</th>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-      </tr>
-    </tbody>
-    <tbody>
-      <tr>
-        <th scope="row" class="text-start">Self-management</th>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-      </tr>
-      <th scope="row" class="text-start">Developer-management</th>
-      <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-      </tr>
-      <tr>
-        <th scope="row" class="text-start">Mobile friendly</th>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-      </tr>
-      <tr>
-        <th scope="row" class="text-start">Mobile friendly</th>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-      </tr>
-      <tr>
-        <th scope="row" class="text-start">Secure website</th>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-      </tr>
-      <tr>
-        <th scope="row" class="text-start">Delivery time</th>
-        <td>Up to 15 days</td>
-        <td>Up to 20 days</td>
-        <td>Up to 30 days</td>
-      </tr>
-      <tr>
-        <th scope="row" class="text-start">Support</th>
-        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-        </svg></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-</div>
-</main>
-</section>
+
 <section class="footer" id="footer">
   <div class="container px-5 py-2" id="featured-3">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       <div class="col-md-4 d-flex align-items-center">
         <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-          <span class="mb-3 mb-md-0 text-muted">ebarredo </span>
+          <span class="mb-3 mb-md-0 text-muted">ebarredo 2024 </span>
         </a>
       </div>
-      <div class="col-md-4 d-flex justify-content-end align-items-center"> 
-        <div class="b-example-divider"></div> 
-        <ul class="nav list-unstyled d-flex">
-          <li class="ms-3 fs-1"><a class="icon text-muted" href="https://www.instagram.com/ebarredoweb/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
-          <li class="ms-3 fs-1"><a class="icon text-muted" href="https://www.linkedin.com/in/ezequiel-barredo-74306b26" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-          <li class="ms-3 fs-1"><a class="icon text-muted" href="mailto:ezequielbarredo@gmail.com" target="_blank" ><ion-icon name="mail"></ion-icon></a></li>
-        </ul>
-      </div>
-      <a class="icon fs-1 ms-3" href="#"><ion-icon name="arrow-up-circle"></ion-icon></a>
+     
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3 fs-1"><a class="icon text-muted" href="https://www.instagram.com/ebarredoweb/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li class="ms-3 fs-1"><a class="icon text-muted" href="https://www.linkedin.com/in/ezequiel-barredo-74306b26" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        <li class="ms-3 fs-1"><a class="icon text-muted" href="mailto:ezequielbarredo@gmail.com" target="_blank" ><ion-icon name="mail"></ion-icon></a></li>
+        <li class="ms-3 fs-1"><a class="icon text-primary" href="#"><ion-icon name="arrow-up-circle"></ion-icon></a></li>
+      </ul>
     </footer>
   </div>
-</section>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-</body>
+  <div class="b-example-divider"></div>
+  </section>
+  </body>
 </html>
